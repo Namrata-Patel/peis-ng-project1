@@ -1,0 +1,23 @@
+<app-nav></app-nav>
+<p>user-list works!</p>
+<table ng-if="users.count>0" border="1">
+    <tbody>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+        </tr>
+        <tr *ngFor="let user of users">
+            <td>
+                {{user.id}}
+            </td>
+            <td>
+                {{user.name}}
+            </td>
+        </tr>
+    </tbody>
+    
+</table>
