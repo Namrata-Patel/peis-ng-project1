@@ -1,0 +1,21 @@
+{
+  "name": "user-lib",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "main": "bundles/user-lib.umd.js",
+  "module": "fesm5/user-lib.js",
+  "es2015": "fesm2015/user-lib.js",
+  "esm5": "esm5/user-lib.js",
+  "esm2015": "esm2015/user-lib.js",
+  "fesm5": "fesm5/user-lib.js",
+  "fesm2015": "fesm2015/user-lib.js",
+  "typings": "user-lib.d.ts",
+  "metadata": "user-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
